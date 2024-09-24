@@ -31,7 +31,7 @@ jobs:
         id: commit
         run: |
           git config --local user.email "zytumgj@gmail.com"
-          git config --local user.name "zyt"
+          git config --local user.name "kk77mgj"
           git add manifest.json
           git commit -m "update manifest.json"
         continue-on-error: true
