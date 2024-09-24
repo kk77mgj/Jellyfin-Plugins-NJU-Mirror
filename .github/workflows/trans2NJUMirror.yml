@@ -30,8 +30,6 @@ jobs:
       - name: commit
         id: commit
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "GitHub Actions [Bot]"
           git add manifest.json
           git commit -m "update manifest.json"
         continue-on-error: true
@@ -41,6 +39,6 @@ jobs:
       - name: push
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.ACCESS_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
 
