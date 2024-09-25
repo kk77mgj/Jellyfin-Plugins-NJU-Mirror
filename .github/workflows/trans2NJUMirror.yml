@@ -42,15 +42,15 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-  mirror-to-gitee:
-    runs-on: ubuntu-latest
-    steps:
+
+      - name: Mirror to gitee
       - uses: Yikun/hub-mirror-action@master
         with:
           src: github/kk77mgj
-          dst: gitee/zyt
+          dst: gitee/zjwzcntzy
           dst_key: ${{ secrets.SSH_PRIVATE_TOKEN }}
           dst_token: ${{ secrets.GITEE_TOKEN }}
+          account_type: user
           static_list: "Jellyfin-Plugins-NJU-Mirror"
 
 
