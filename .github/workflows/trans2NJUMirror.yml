@@ -55,5 +55,6 @@ jobs:
           dst_token: ${{ secrets.GITEE_TOKEN }}
           account_type: user
           static_list: "Jellyfin-Plugins-NJU-Mirror"
+          force_update: true
 
 
