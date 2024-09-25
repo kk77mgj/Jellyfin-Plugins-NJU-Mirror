@@ -43,8 +43,13 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Mirror to gitee
-      - uses: Yikun/hub-mirror-action@master
+        uses: Yikun/hub-mirror-action@master
         with:
           src: github/kk77mgj
           dst: gitee/zjwzcntzy
