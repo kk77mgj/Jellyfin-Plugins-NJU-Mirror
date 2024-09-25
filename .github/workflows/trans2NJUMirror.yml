@@ -46,6 +46,14 @@ jobs:
   mirror:
     runs-on: ubuntu-latest
     steps:
+      - name: Cache src repos
+      uses: actions/cache@v2.1.3
+      id: cache
+      with:
+        path: ${{ github.workspace }}/hub-mirror-cache
+        key: ${{ runner.os }}-${{ steps.info.outputs.key }}-cache-${{ steps.info.outputs.time }}
+        restore-keys: ${{ runner.os }}-${{ steps.info.outputs.key }}-cache-
+
       - name: Mirror to gitee
         uses: Yikun/hub-mirror-action@master
         with:
@@ -55,6 +63,7 @@ jobs:
           dst_token: ${{ secrets.GITEE_TOKEN }}
           account_type: user
           static_list: "Jellyfin-Plugins-NJU-Mirror"
+          cache_path: /github/workspace/hub-mirror-cache
           force_update: true
 
 
