@@ -45,12 +45,12 @@ jobs:
   mirror-to-gitee:
     runs-on: ubuntu-latest
     steps:
-      - uses: wearerequired/git-mirror-action@v1
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          SSH_KNOWN_HOSTS: ${{ secrets.SSH_KNOWN_HOSTS }}
+      - uses: Yikun/hub-mirror-action@master
         with:
-          source-repo: "git@github.com:kk77mgj/Jellyfin-Plugins-NJU-Mirror.git"
-          destination-repo: "git@gitee.com:zjwzcntzy/jellyfin-plugins-nju-mirror.git"
+          src: github/kk77mgj
+          dst: gitee/zyt
+          dst_key: ${{ secrets.SSH_PRIVATE_TOKEN }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
+          static_list: "Jellyfin-Plugins-NJU-Mirror"
 
 
