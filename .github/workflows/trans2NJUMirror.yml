@@ -20,23 +20,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      - name: download manifest
-        run: wget https://mirrors.nju.edu.cn/jellyfin/files/plugin/manifest.json
-
-      - name: update url in manifest
-        run: sed -i 's_https://repo.jellyfin.org_https://mirrors.nju.edu.cn/jellyfin_' manifest.json
-
-      - name: commit
-        id: commit
-        run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "GitHub Actions [Bot]"
-          git add manifest.json
-          git commit -m "update manifest.json"
+      - name: update-url
+        run: scripts/update_url.sh
         continue-on-error: true
-      - name: Check on failure
-        if: steps.commit.outputs.status == 'failure'
-        run: exit 1
       - name: push
         uses: ad-m/github-push-action@master
         with:
