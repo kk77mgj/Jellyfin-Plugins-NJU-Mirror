@@ -18,6 +18,30 @@ jobs:
       - name: update-metatube
         run: ./scripts/update_github_url.sh Metatube https://raw.githubusercontent.com/metatube-community/jellyfin-plugin-metatube/dist/manifest.json
         continue-on-error: true
+      - name: update-sso
+        run: ./scripts/update_github_url.sh SSO https://raw.githubusercontent.com/9p4/jellyfin-plugin-sso/manifest-release/manifest.json
+        continue-on-error: true
+      - name: update-intros
+        run: ./scripts/update_github_url.sh Intros https://raw.githubusercontent.com/BrianCArnold/jellyfin-plugin-intros/master/manifest.json
+        continue-on-error: true
+      - name: update-youtube
+        run: ./scripts/update_github_url.sh Youtube https://raw.githubusercontent.com/ankenyr/jellyfin-plugin-repo/master/manifest.json
+        continue-on-error: true
+      - name: update-thePornDB
+        run: ./scripts/update_github_url.sh ThePornDB https://raw.githubusercontent.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB/main/manifest.json
+        continue-on-error: true
+      - name: update-skinMananger
+        run: ./scripts/update_github_url.sh SkinManager https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json
+        continue-on-error: true
+      - name: update-fintube
+        run: ./scripts/update_github_url.sh Fintube https://raw.githubusercontent.com/AECX/FinTube/master/manifest.json
+        continue-on-error: true
+      - name: update-InPlayerEpisodePreview
+        run: ./scripts/update_github_url.sh InPlayerEpisodePreview https://raw.githubusercontent.com/Namo2/InPlayerEpisodePreview/master/manifest.json
+        continue-on-error: true
+      - name: update-intro-skipper
+        run: ./scripts/update_github_url.sh IntroSkipper https://raw.githubusercontent.com/intro-skipper/intro-skipper/master/manifest.json
+        continue-on-error: true
       - name: push
         uses: ad-m/github-push-action@master
         with:
