@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Make the script files executable
+      - name: Make the scripts files executable
         run: chmod +x scripts/*
       - name: update-metatube
         run: ./scripts/update_github_url.sh Metatube https://raw.githubusercontent.com/metatube-community/jellyfin-plugin-metatube/dist/manifest.json
