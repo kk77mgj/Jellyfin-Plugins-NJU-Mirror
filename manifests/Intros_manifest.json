@@ -1,0 +1,20 @@
+[
+  {
+    "guid": "07d86795-01f2-4d22-b174-cdc6056c3e7c",
+    "name": "Local Intros",
+    "overview": "Display flashy intros before movies and other videos",
+    "description": "Select a flashy video from the prerolls.video discord to run before any video content.",
+    "owner": "BrianCArnold",
+    "category": "Other",
+    "versions": [
+      {
+        "version": "2.2.0.100",
+        "changelog": "Added Current Date Filter and Add-All button",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://ghp.ci/https://github.com/BrianCArnold/jellyfin-plugin-intros/releases/download/v2.2.0.100/jellyfin-plugin-intros-v2.2.0.100.zip",
+        "checksum": "9d417ee72060da7b63f0eb82699dc75c",
+        "timestamp": "2023-05-22T00:00:00Z"
+      }
+    ]
+  }
+]
