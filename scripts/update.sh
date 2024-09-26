@@ -4,7 +4,7 @@
 if [ ! -d temp ]; then
     mkdir temp
 fi
-wget -p temp https://mirrors.nju.edu.cn/jellyfin/files/plugin/manifest.json
+wget -P temp https://mirrors.nju.edu.cn/jellyfin/files/plugin/manifest.json
 
 # update url
 if [ -f temp/manifest.json ] ; then
