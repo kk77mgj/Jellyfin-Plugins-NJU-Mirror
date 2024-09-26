@@ -9,7 +9,7 @@ wget -P temp https://mirrors.nju.edu.cn/jellyfin/files/plugin/manifest.json
 # update url
 if [ -f temp/manifest.json ] ; then
     sed -i 's_https://repo.jellyfin.org_https://mirrors.nju.edu.cn/jellyfin_' temp/manifest.json
-    if [ ! -d manifest ]; then
+    if [ ! -d manifests ]; then
         mkdir manifests
     fi
     mv temp/manifest.json manifests/manifest.json

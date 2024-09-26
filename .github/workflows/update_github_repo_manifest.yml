@@ -1,0 +1,25 @@
+name: UPDATE GITHUB REPO MANIFEST URL ACTION
+
+on:
+    push:
+        branches:
+          - main
+    workflow_dispatch:
+    schedule:
+      - cron: '26 21 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Make the script files executable
+        run: chmod +x scripts/*
+      - name: update-metatube
+        run: ./scripts/update_github_url.sh Metatube https://raw.githubusercontent.com/metatube-community/jellyfin-plugin-metatube/dist/manifest.json
+        continue-on-error: true
+      - name: push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
