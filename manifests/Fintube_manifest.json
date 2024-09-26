@@ -1,0 +1,40 @@
+[
+        {
+        "guid": "d20aa9ed-eafc-4578-b320-4e3b7093129c",
+        "name": "FinTube",
+        "overview": "Import Videos/Music from YouTube",
+        "description": "Lets you download YT videos as mp4 or mp3 with support for id3v2 tags. Requires yt-dlp/youtube-dl and (optionally) id3v2.",
+        "owner": "Maurice 'AECX' Henke",
+        "category": "General",
+        "imageUrl": "https://ghp.ci/https://raw.githubusercontent.com/AECX/FinTube/master/Assets/logo.png",
+        "versions": [
+            {
+                "version": "1.0.1.0",
+                "changelog": "Initial Release",
+                "targetAbi": "10.8.10.0",
+                "sourceUrl": "https://ghp.ci/https://github.com/AECX/FinTube/releases/download/v1.0.1/FinTube-1.0.1.zip",
+                "checksum": "20d1786dedf3213ad371edcbafea934d",
+                "timestamp": "2024-05-12T11:40:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "d20aa9ed-eafc-4578-b320-4e3b7093129c",
+        "name": "FinTube",
+        "overview": "Import Videos/Music from YouTube",
+        "description": "Lets you download YT videos as mp4 or mp3 with support for id3v2 tags. Requires yt-dlp/youtube-dl and (optionally) id3v2.",
+        "owner": "Maurice 'AECX' Henke",
+        "category": "General",
+        "imageUrl": "https://ghp.ci/https://raw.githubusercontent.com/AECX/FinTube/master/Assets/logo.png",
+        "versions": [
+            {
+                "version": "1.0.0.0",
+                "changelog": "Initial Release",
+                "targetAbi": "10.8.10.0",
+                "sourceUrl": "https://ghp.ci/https://github.com/AECX/FinTube/releases/download/v1.0/FinTube-1.0.zip",
+                "checksum": "02eeb5390d5e2a93a241c986bbde6d60",
+                "timestamp": "2023-08-23T22:36:00Z"
+            }
+        ]
+    }
+]
