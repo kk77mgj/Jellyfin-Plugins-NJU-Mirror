@@ -22,7 +22,7 @@ jobs:
 
       - name: update-url
         run: |
-          chmod +x ./scripts/update.sh
+          chmod +x scripts/update.sh
           ./scripts/update.sh
         continue-on-error: true
       - name: push
