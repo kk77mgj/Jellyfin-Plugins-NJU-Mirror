@@ -21,7 +21,9 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: update-url
-        run: scripts/update.sh
+        run: |
+          chmod +x ./scripts/update.sh
+          ./scripts/update.sh
         continue-on-error: true
       - name: push
         uses: ad-m/github-push-action@master
