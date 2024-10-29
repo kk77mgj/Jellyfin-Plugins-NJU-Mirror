@@ -8,6 +8,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "12.0.0.0",
+                "changelog": "- Fix nullability for 10.10 (#116) @crobibero\n- Update opf and add ISBN (#108) @AshleyDeo\n- Add Comic Vine Person provider (#85) @Pithaya\n\n### New features and improvements ###\n- Add support for covers from .cbt, .cb7 and .cbr (#112) @oddstr13\n\n### Dependency updates ###\n- Update dependency Microsoft.NET.Test.Sdk to 17.11.1 (#106) @renovate\n- Update xunit-dotnet monorepo (#84) @renovate\n- Update dependency Microsoft.Extensions.Http to 8.0.1 - autoclosed (#115) @renovate",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/bookshelf/bookshelf_12.0.0.0.zip",
+                "checksum": "973b5e8fda39304a04bbe53011c0aedd",
+                "timestamp": "2024-10-26T17:57:49Z"
+            },
+            {
                 "version": "11.0.0.0",
                 "changelog": "- Unstable (#103) @crobibero\n- Improve cover image extraction from epub files (#102) @unfedorg\n\n### Dependency updates ###\n- Update dependency coverlet.collector to v6.0.2 (#101) @renovate\n- Update dependency coverlet.collector to v6.0.1 (#98) @renovate",
                 "targetAbi": "10.9.0.0",
@@ -184,6 +192,14 @@
         "category": "General",
         "imageUrl": "https://mirrors.nju.edu.cn/jellyfin/releases/plugin/images/jellyfin-plugin-kodisyncqueue.png",
         "versions": [
+            {
+                "version": "12.0.0.0",
+                "changelog": "- 10.10 support (#97) @crobibero",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/kodi-sync-queue/kodi-sync-queue_12.0.0.0.zip",
+                "checksum": "5f749b6e1c279294d06da8264eb2f6d2",
+                "timestamp": "2024-10-26T18:44:35Z"
+            },
             {
                 "version": "11.0.0.0",
                 "changelog": "- Downgrade LiteDB to 5.0.15 (#85) @oddstr13",
@@ -724,6 +740,14 @@
         "category": "General",
         "imageUrl": "https://mirrors.nju.edu.cn/jellyfin/releases/plugin/images/jellyfin-plugin-trakt.png",
         "versions": [
+            {
+                "version": "26.0.0.0",
+                "changelog": "- 10.10 support (#238) @crobibero\n\n### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to v8 (#187) @renovate",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/trakt/trakt_26.0.0.0.zip",
+                "checksum": "222b61706a4b56adde19e81c359b9342",
+                "timestamp": "2024-10-26T18:15:06Z"
+            },
             {
                 "version": "25.0.0.0",
                 "changelog": "- 10.9 (#233) @crobibero\n\n### Dependency updates ###\n- Update dependency StyleCop.Analyzers to v1.2.0-beta.556 (#214) @renovate",
@@ -1295,6 +1319,14 @@
         "imageUrl": "https://mirrors.nju.edu.cn/jellyfin/releases/plugin/images/jellyfin-plugin-anilist.png",
         "versions": [
             {
+                "version": "10.0.0.0",
+                "changelog": "- Support for retreiving Person metadata (#75) @HansLehnert\n\n### Dependency updates ###\n- Update dotnet monorepo to 8.0.1 (#80) @renovate",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/anilist/anilist_10.0.0.0.zip",
+                "checksum": "958d69fa904b6a7cf4f75d429be9ea79",
+                "timestamp": "2024-10-26T18:44:42Z"
+            },
+            {
                 "version": "9.0.0.0",
                 "changelog": "- Limit amount of people in metadata search result (#68) @AkaTenshi\n- Feature: Decouples VA filter from the title language, and moves to the new Anilist StaffLanguage API key (#65) @mmshivesh\n\n### Dependency updates ###\n- Update dependency AnitomySharp.NET6 to v0.5.1 (#64) @renovate",
                 "targetAbi": "10.9.0.0",
@@ -1551,8 +1583,8 @@
                 "changelog": "- Fix test badge typo (#257) @RyanMelena\n- Fix test status badge (#256) @RyanMelena\n- Make \"Original Aspect Ratio\" property available to WebHooks (#249) @RyanMelena\n\n### Breaking changes ###\n- Allow smtp connection without SSL (#258) @RyanMelena\n\n### Bug Fixes ###\n- Allow smtp connection without SSL (#258) @RyanMelena\n\n### Dependency updates ###\n- chore(deps): update dependency mailkit to v4.7.0 (#174) @renovate\n- chore(deps): update dependency mqttnet.extensions.managedclient to v4.3.6.1152 (#246) @renovate",
                 "targetAbi": "10.9.7.0",
                 "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/webhook/webhook_15.0.0.0.zip",
-                "checksum": "d27ef505574e3c012444ca64d43cf47a",
-                "timestamp": "2024-07-03T12:47:16Z"
+                "checksum": "0def08b5a1709aa4c4edec45c71f26fb",
+                "timestamp": "2024-10-26T18:18:20Z"
             },
             {
                 "version": "14.0.0.0",
@@ -1661,6 +1693,14 @@
         "category": "General",
         "imageUrl": "https://mirrors.nju.edu.cn/jellyfin/releases/plugin/images/jellyfin-plugin-opds.png",
         "versions": [
+            {
+                "version": "6.0.0.0",
+                "changelog": "- 10.10 fixes (#44) @crobibero\n\n### New features and improvements ###\n- Add more descriptive feed name (#25) @crobibero\n\n### Bug Fixes ###\n- fix: Support different query parameter names in search (#41) @rluetzner\n\n### Dependency updates ###\n- chore(deps): update dependency stylecop.analyzers to v1.2.0-beta.556 - autoclosed (#34) @renovate",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/opds/opds_6.0.0.0.zip",
+                "checksum": "182d6e847b8632af968f2bfea728c541",
+                "timestamp": "2024-10-26T18:10:14Z"
+            },
             {
                 "version": "5.0.0.0",
                 "changelog": "- 10.9 (#39) @crobibero\n\n### New features and improvements ###\n- Set Content-Disposition header when downloading book (#24) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#36) @methbkts\n- Minor update to include authenticated feeds. (#21) @adamshand\n\n### Dependency updates ###\n- chore(deps): update dependency stylecop.analyzers to v1.2.0-beta.435 (#30) @renovate\n\n### CI & build changes ###\n- fix: meta ci workflows (#28) @h1dden-da3m0n",
@@ -1930,12 +1970,20 @@
         "imageUrl": "",
         "versions": [
             {
+                "version": "4.0.0.0",
+                "changelog": "- Fixes for 10.10 (#84) @crobibero\n- Standardize bind IPs in ssdp and dlnahost (#82) @disgustipated\n- Revert lg profile friendly name (#77) @disgustipated\n- Add baseurl to descriptoruri (#75) @disgustipated\n\n### Dependency updates ###\n- Update dotnet monorepo (#79) @renovate",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/dlna/dlna_4.0.0.0.zip",
+                "checksum": "c4cfe0a8b24f1a60224b4dec56b380a8",
+                "timestamp": "2024-10-27T13:15:22Z"
+            },
+            {
                 "version": "3.0.0.0",
                 "changelog": "- restore video transcoding (#68) @flashka07\n- Update dependency Microsoft.AspNetCore.Authorization to v8.0.8 (#54) @renovate\n- Set publisher uri to http (#62) @disgustipated\n- Remove . from friendlyname for identifying LG TVs (#60) @disgustipated",
                 "targetAbi": "10.9.10.0",
                 "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/dlna/dlna_3.0.0.0.zip",
-                "checksum": "2b88fb8b370650f1cedca0a3a6d4a050",
-                "timestamp": "2024-09-02T17:22:12Z"
+                "checksum": "10e6c4dab3c5b0bb42d434dfef974ebc",
+                "timestamp": "2024-10-26T22:25:45Z"
             },
             {
                 "version": "2.0.0.0",
@@ -1978,6 +2026,42 @@
                 "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/transcode-killer/transcode-killer_2.0.0.0.zip",
                 "checksum": "eae7cdd6f82d1fe1b54b990cb64e64b6",
                 "timestamp": "2024-05-12T01:21:54Z"
+            }
+        ]
+    },
+    {
+        "guid": "698b6f33-14ca-49b5-9d79-fc3c0ab941f5",
+        "name": "Chapter Segments Provider",
+        "description": "Create media segments based on chapters.\n",
+        "overview": "Create media segments based on chapters.",
+        "owner": "jellyfin",
+        "category": "General",
+        "versions": [
+            {
+                "version": "3.0.0.0",
+                "changelog": "",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/chapter-segments-provider/chapter-segments-provider_3.0.0.0.zip",
+                "checksum": "04c5162ab035f72fc52fb678aa75a9e0",
+                "timestamp": "2024-10-26T18:20:41Z"
+            }
+        ]
+    },
+    {
+        "guid": "d106ebe6-9ca8-4fbc-9cd1-a92a213da9f9",
+        "name": "LrcLib",
+        "description": "Download lyrics from https://lrclib.net/\n",
+        "overview": "Download lyrics from https://lrclib.net/",
+        "owner": "crobibero",
+        "category": "Notifications",
+        "versions": [
+            {
+                "version": "2.0.0.0",
+                "changelog": "### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to 8.0.1 (#8) @renovate",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/lrclib/lrclib_2.0.0.0.zip",
+                "checksum": "f329ab0dc589c0ac1aa82522e278d49e",
+                "timestamp": "2024-10-29T00:27:05Z"
             }
         ]
     }
