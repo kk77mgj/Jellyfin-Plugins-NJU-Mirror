@@ -193,6 +193,14 @@
         "imageUrl": "https://mirrors.nju.edu.cn/jellyfin/releases/plugin/images/jellyfin-plugin-kodisyncqueue.png",
         "versions": [
             {
+                "version": "13.0.0.0",
+                "changelog": "- Properly add 10.10 support (#100) @crobibero",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/kodi-sync-queue/kodi-sync-queue_13.0.0.0.zip",
+                "checksum": "a9833ed3fd9e54d75c0aec8e2ba1814f",
+                "timestamp": "2024-10-29T23:40:33Z"
+            },
+            {
                 "version": "12.0.0.0",
                 "changelog": "- 10.10 support (#97) @crobibero",
                 "targetAbi": "10.10.0.0",
@@ -1112,6 +1120,22 @@
         "category": "Metadata",
         "imageUrl": "https://mirrors.nju.edu.cn/jellyfin/releases/plugin/images/jellyfin-plugin-tvdb.png",
         "versions": [
+            {
+                "version": "17.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Fix update task (#193) @scampower3\n- Moves includeOriginalCountryInTags to the correct setting group. (#191) @scampower3",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/thetvdb/thetvdb_17.0.0.0.zip",
+                "checksum": "53533ea6b2284ea5129f85e0dc902102",
+                "timestamp": "2024-10-30T14:37:53Z"
+            },
+            {
+                "version": "16.0.0.0",
+                "changelog": "- Fix 10.10 nullability (#186) @crobibero\n\n### New features and improvements ###\n- Remove All Missing Episodes On Refresh (#176) @scampower3\n- Add original countries of series or movies as tags (#184) @scampower3\n- Move to IExternalUrlProvider (#179) @scampower3\n- Add people provider  (#173) @scampower3\n\n### Bug Fixes ###\n- Only generate url when there is externalId for season (#190) @scampower3\n- Update Season provider to use SeriesDisplayOrder field (#180) @scampower3\n- Filter for Movie Ids in remote id search (#187) @scampower3\n- Fix IsMatch logic (#188) @scampower3\n- Update all items returned from GetItemList (#178) @scampower3\n\n### Code or Repo Maintenance ###\n- Use Named Tuple (#177) @scampower3\n- Remove MaxSearchResults  (#174) @scampower3\n\n### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to 8.0.1 (#181) @renovate",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/thetvdb/thetvdb_16.0.0.0.zip",
+                "checksum": "3d4b4139faaf54abb81605d95616706a",
+                "timestamp": "2024-10-29T23:40:31Z"
+            },
             {
                 "version": "15.0.0.0",
                 "changelog": "### Bug Fixes ###\n- Set ContentRatings list to be nullable (#171) @scampower3",
