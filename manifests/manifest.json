@@ -2022,7 +2022,7 @@
                 "changelog": "- restore video transcoding (#68) @flashka07\n- Update dependency Microsoft.AspNetCore.Authorization to v8.0.8 (#54) @renovate\n- Set publisher uri to http (#62) @disgustipated\n- Remove . from friendlyname for identifying LG TVs (#60) @disgustipated",
                 "targetAbi": "10.9.10.0",
                 "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/dlna/dlna_3.0.0.0.zip",
-                "checksum": "10e6c4dab3c5b0bb42d434dfef974ebc",
+                "checksum": "2b88fb8b370650f1cedca0a3a6d4a050",
                 "timestamp": "2024-10-26T22:25:45Z"
             },
             {
