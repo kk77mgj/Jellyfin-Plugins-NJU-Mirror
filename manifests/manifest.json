@@ -2002,6 +2002,14 @@
         "imageUrl": "",
         "versions": [
             {
+                "version": "6.0.0.0",
+                "changelog": "- fix: add the icons to the compiled resources (#109) (#114) @FelixPetriconi\n- fix: adjusted typo in configuration page title (#112) @shindai\n- Only split user agent if it can be split (#95) @Shadowghost",
+                "targetAbi": "10.10.3.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/dlna/dlna_6.0.0.0.zip",
+                "checksum": "f553041c6685d619d4eeb8927bd85c14",
+                "timestamp": "2024-12-19T22:17:07Z"
+            },
+            {
                 "version": "5.0.0.0",
                 "changelog": "- Fix Bigscreen compatibility issues (#83) @Nullcaller\n- Add additional profile logging (#93) @disgustipated\n- Fix TTL not following SsdpConstants (#88) @Nullcaller",
                 "targetAbi": "10.10.0.0",
