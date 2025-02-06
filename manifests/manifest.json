@@ -193,6 +193,14 @@
         "imageUrl": "https://mirrors.nju.edu.cn/jellyfin/releases/plugin/images/jellyfin-plugin-kodisyncqueue.png",
         "versions": [
             {
+                "version": "14.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Implement a database upgrade system, properly migrate ItemId to Guid (#107) @Insprill",
+                "targetAbi": "10.10.5.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/kodi-sync-queue/kodi-sync-queue_14.0.0.0.zip",
+                "checksum": "7c2c37048cb92593e4395456c72067cc",
+                "timestamp": "2025-02-05T20:18:00Z"
+            },
+            {
                 "version": "13.0.0.0",
                 "changelog": "- Properly add 10.10 support (#100) @crobibero",
                 "targetAbi": "10.10.0.0",
