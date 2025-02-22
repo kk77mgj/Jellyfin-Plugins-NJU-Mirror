@@ -9,6 +9,14 @@
     "imageUrl": "https://ghp.ci/https://raw.githubusercontent.com/metatube-community/jellyfin-plugin-metatube/main/Jellyfin.Plugin.MetaTube/thumb.png",
     "versions": [
       {
+        "checksum": "06dcb258aacdd0aac4215ea228929cf7",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://ghp.ci/https://github.com/metatube-community/jellyfin-plugin-metatube/releases/download/v2025.222.2100.0/Jellyfin.MetaTube@v2025.222.2100.0.zip",
+        "timestamp": "2025-02-22T21:00:28Z",
+        "version": "2025.222.2100.0"
+      },
+      {
         "checksum": "19ac5febbe22b21eacdb3dde3a588c89",
         "changelog": "Auto Released by Actions",
         "targetAbi": "10.9.0.0",
