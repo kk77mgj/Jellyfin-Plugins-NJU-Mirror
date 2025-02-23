@@ -1536,6 +1536,14 @@
         "imageUrl": "https://mirrors.nju.edu.cn/jellyfin/releases/plugin/images/jellyfin-plugin-webhook.png",
         "versions": [
             {
+                "version": "17.0.0.0",
+                "changelog": "- Update Ntfy.handlebars (#298) @Sk4lli\n- ntfy.sh: Template Optimizations Pt. 3 (#297) @v3DJG6GL\n\n### New features and improvements ###\n- feat: add url_encode helper (#314) @armanckeser",
+                "targetAbi": "10.10.6.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/webhook/webhook_17.0.0.0.zip",
+                "checksum": "dc5633cf3b48b21e0d413eafdd95ba37",
+                "timestamp": "2025-02-22T17:59:11Z"
+            },
+            {
                 "version": "15.0.0.0",
                 "changelog": "- Fix test badge typo (#257) @RyanMelena\n- Fix test status badge (#256) @RyanMelena\n- Make \"Original Aspect Ratio\" property available to WebHooks (#249) @RyanMelena\n\n### Breaking changes ###\n- Allow smtp connection without SSL (#258) @RyanMelena\n\n### Bug Fixes ###\n- Allow smtp connection without SSL (#258) @RyanMelena\n\n### Dependency updates ###\n- chore(deps): update dependency mailkit to v4.7.0 (#174) @renovate\n- chore(deps): update dependency mqttnet.extensions.managedclient to v4.3.6.1152 (#246) @renovate",
                 "targetAbi": "10.9.7.0",
