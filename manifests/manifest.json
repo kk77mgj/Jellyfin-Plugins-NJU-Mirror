@@ -1046,6 +1046,14 @@
         "imageUrl": "https://mirrors.nju.edu.cn/jellyfin/releases/plugin/images/jellyfin-plugin-tvdb.png",
         "versions": [
             {
+                "version": "19.0.0.0",
+                "changelog": "- Improved null handling for tvdb provider (#207) @systemcrash\n\n### New features and improvements ###\n- Added missing season type 'alttwo' (#200) @Kianda\n\n### Bug Fixes ###\n- Handle empty ParentIndexNumber (#209) @Shadowghost",
+                "targetAbi": "10.10.6.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/thetvdb/thetvdb_19.0.0.0.zip",
+                "checksum": "81cf892de2c6803f7e90da407b694492",
+                "timestamp": "2025-02-25T03:41:03Z"
+            },
+            {
                 "version": "18.0.0.0",
                 "changelog": "### Bug Fixes ###\n- Increase robustness of retrieving tmdb id (again) (#194) @scampower3\n- Fix orphaned episodes deletion (#195) @scampower3\n- Queue refresh after adding child (#196) @scampower3",
                 "targetAbi": "10.10.0.0",
@@ -1201,6 +1209,14 @@
         "imageUrl": "https://mirrors.nju.edu.cn/jellyfin/releases/plugin/images/jellyfin-plugin-anidb.png",
         "versions": [
             {
+                "version": "10.0.0.0",
+                "changelog": "- Fallback on empty ParentIndexNumber (#75) @Shadowghost",
+                "targetAbi": "10.10.6.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/anidb/anidb_10.0.0.0.zip",
+                "checksum": "b334e0a1c3855d6918fd6f4c13d78ab7",
+                "timestamp": "2025-02-25T03:40:44Z"
+            },
+            {
                 "version": "9.0.0.0",
                 "changelog": "- Map tag \"18 restricted\" to parental rating NC-17 (#48) @nalsai\n- Strip the year from the name for finding matches (#55) @nalsai\n- Add n-apostrophe replacement (#56) @nalsai\n- Add wo replacement (#57) @nalsai",
                 "targetAbi": "10.9.4.0",
@@ -1275,6 +1291,14 @@
         "category": "Metadata",
         "imageUrl": "https://mirrors.nju.edu.cn/jellyfin/releases/plugin/images/jellyfin-plugin-anilist.png",
         "versions": [
+            {
+                "version": "11.0.0.0",
+                "changelog": "- Cleanup (#91) @Shadowghost\n\n### New features and improvements ###\n- Added a setting to make only animation studio appear as metadata (with fixes) (#88) @sjorge",
+                "targetAbi": "10.10.6.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/anilist/anilist_11.0.0.0.zip",
+                "checksum": "b81d83d025ca1498f730a72599b80fa4",
+                "timestamp": "2025-02-25T03:40:36Z"
+            },
             {
                 "version": "10.0.0.0",
                 "changelog": "- Support for retreiving Person metadata (#75) @HansLehnert\n\n### Dependency updates ###\n- Update dotnet monorepo to 8.0.1 (#80) @renovate",
@@ -1402,6 +1426,14 @@
         "imageUrl": "https://mirrors.nju.edu.cn/jellyfin/releases/plugin/images/jellyfin-plugin-kitsu.png",
         "versions": [
             {
+                "version": "6.0.0.0",
+                "changelog": "- Fallback on empty ParentIndexNumber (#36) @Shadowghost\n- Update kitsu domain (#34) @pikami",
+                "targetAbi": "10.10.6.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/kitsu/kitsu_6.0.0.0.zip",
+                "checksum": "e64954a083d4a66722244724aa588b5a",
+                "timestamp": "2025-02-25T03:40:50Z"
+            },
+            {
                 "version": "5.0.0.0",
                 "changelog": "- 10.9 (#29) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#26) @methbkts",
                 "targetAbi": "10.9.0.0",
@@ -1444,6 +1476,14 @@
         "category": "Metadata",
         "imageUrl": "https://mirrors.nju.edu.cn/jellyfin/releases/plugin/images/jellyfin-plugin-tvmaze.png",
         "versions": [
+            {
+                "version": "12.0.0.0",
+                "changelog": "- Fallback on empty ParentIndexNumber (#54) @Shadowghost\n- Should provide identifying info in its exception (#47) @michaelkrieger\n- Add basic handling for specials (#23) @Smith00101010",
+                "targetAbi": "10.10.6.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/tvmaze/tvmaze_12.0.0.0.zip",
+                "checksum": "e778f22bc4295aefa159ee327b89dbfe",
+                "timestamp": "2025-02-25T03:40:35Z"
+            },
             {
                 "version": "11.0.0.0",
                 "changelog": "- 10.9 (#50) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#49) @methbkts\n- Use meta ci (#42) @crobibero\n\n### CI & build changes ###\n- fix: meta ci workflows (#44) @h1dden-da3m0n\n- Use meta ci (#42) @crobibero",
