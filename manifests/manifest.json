@@ -1975,6 +1975,14 @@
         "imageUrl": "",
         "versions": [
             {
+                "version": "7.0.0.0",
+                "changelog": "- Fix: ChildCount When Viewing Folders in Directory (GetBrowse) (#128) @tfink419\n- Add rules, fix issues and cleanup (#96) @Shadowghost\n- Disable DirectStream for video playback (#124) @ACertainCoder",
+                "targetAbi": "10.10.6.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/dlna/dlna_7.0.0.0.zip",
+                "checksum": "720670a424cfa32bca014a0179d64027",
+                "timestamp": "2025-03-12T19:16:10Z"
+            },
+            {
                 "version": "6.0.0.0",
                 "changelog": "- fix: add the icons to the compiled resources (#109) (#114) @FelixPetriconi\n- fix: adjusted typo in configuration page title (#112) @shindai\n- Only split user agent if it can be split (#95) @Shadowghost",
                 "targetAbi": "10.10.3.0",
