@@ -284,6 +284,14 @@
         "imageUrl": "https://mirrors.nju.edu.cn/jellyfin/releases/plugin/images/jellyfin-plugin-ldapauth.png",
         "versions": [
             {
+                "version": "20.0.0.0",
+                "changelog": "- Added ProfileImageFormat support (#174) @CEbbinghaus\n- Removed jpegphoto attribute when photo sync isn't enabled (#168) @CEbbinghaus\n\n### New features and improvements ###\n- Implement Password Modify Extended Operation (#172) @Zeault",
+                "targetAbi": "10.10.6.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/ldap-authentication/ldap-authentication_20.0.0.0.zip",
+                "checksum": "0d553624e7d83ba3e13ea2658212559f",
+                "timestamp": "2025-03-14T01:43:55Z"
+            },
+            {
                 "version": "19.0.0.0",
                 "changelog": "- Updates for 10.9 (#158) @crobibero\n\n### New features and improvements ###\n- Add profile image synchronization (#154) @SanseroGames",
                 "targetAbi": "10.9.0.0",
