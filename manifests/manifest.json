@@ -1983,6 +1983,14 @@
         "imageUrl": "",
         "versions": [
             {
+                "version": "8.0.0.0",
+                "changelog": "- Revert collection expression (#132) @crobibero",
+                "targetAbi": "10.10.6.0",
+                "sourceUrl": "https://mirrors.nju.edu.cn/jellyfin/files/plugin/dlna/dlna_8.0.0.0.zip",
+                "checksum": "9424fec869f91fa3de4844a06226f852",
+                "timestamp": "2025-03-17T03:03:55Z"
+            },
+            {
                 "version": "7.0.0.0",
                 "changelog": "- Fix: ChildCount When Viewing Folders in Directory (GetBrowse) (#128) @tfink419\n- Add rules, fix issues and cleanup (#96) @Shadowghost\n- Disable DirectStream for video playback (#124) @ACertainCoder",
                 "targetAbi": "10.10.6.0",
